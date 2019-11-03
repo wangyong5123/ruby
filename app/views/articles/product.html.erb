@@ -1,0 +1,6 @@
+<%= form_for :product ,url: uploadpro_path do |f| %>
+    <p>图片上传</p>
+    <%= f.file_field :image_url %>
+    <%= f.submit value="提交" %>
+<% end %>
+
